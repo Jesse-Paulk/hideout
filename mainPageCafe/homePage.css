@@ -1,0 +1,156 @@
+body{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.loginBar {
+  background-color: black;
+  height: 50px;
+/*  border-radius: 40px;*/
+}
+
+.login {
+  float: right;
+
+
+/*  margin-top: -242px;*/
+}
+
+.logtwo {
+  float: right;
+  margin-right: 80px;
+}
+
+.liButton {
+  display: inline;
+
+  margin-right: 30px;
+  color: #BC6028;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.liButtonT {
+  display: inline;
+  margin-left: 25px;
+  margin-right: 5px;
+  color: #BC6028;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 230px;
+  width: 200px;
+
+  margin-left: 7%;
+  background-color: black;
+  border-radius: 0px 0px 30px 0px;
+  margin-top: -832px;
+  /*filter: opacity(40%);*/
+}
+
+.logoCircle {
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 190px;
+  width: 190px;
+  margin-top: 10%;
+  background-size: contain;
+  background-image: url(https://static1.squarespace.com/static/54cdc221e4b06bf8f30d9c1c/t/57d090dd44024361a7e82413/1473286366778/13346191_1118126678250717_631264290170108344_o.jpg?format=2500w);
+  filter: opacity(99%);
+  margin-left: 3px;
+}
+
+.secondBar {
+  height: 110px;
+  background-color: #1E0A0C;
+  text-align: right;
+}
+
+.twoliButton {
+  float: none;
+  display: inline;
+  margin-left: 110px;
+  margin-right: 30px;
+  color: #fffdd0;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+
+}
+
+.twologin {
+  float: right;
+  margin-right: 190px;
+  margin-top: 40px;
+}
+
+
+.thirdBar {
+  height: 80px;
+  background-color: #fffdd0;
+}
+
+.threeliButton {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 140px;
+  color: #9B3206;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.threelogin {
+  float: right;
+  margin-right: 120px;
+  margin-top: 30px;
+
+}
+
+img {
+  width: 100%;
+
+}
+.main {
+  height: 574px;
+  width: 100%;
+  background-image: url(http://www.yopk.gr/wp-content/uploads/2016/05/Latte-Art-Coffee01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 100%;
+  background-size: 100% 100%;
+}
+
+.admenue {
+  border: 1px solid black;
+  height: 390px;
+  width: 360px;
+  float: right;
+  margin-right: 12%;
+  margin-top: 8px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #3f2a14;
+  filter: opacity(50%);
+  padding: 40px;
+  text-align: center;
+  font-family: 'Ranga', cursive;
+
+}
+
+.adtext {
+  margin-top: 20px;
+  font-size: 60px;
+  filter: invert(80%);
+}
+
+.adtext2 {
+  margin-top: -20px;
+  font-size: 25px;
+  filter: invert(80%);
+}
+
+a {
+  color: inherit;
+}
