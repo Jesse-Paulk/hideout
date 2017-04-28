@@ -3,17 +3,14 @@ body{
   width: 100%;
 }
 
+/*top login bar and styles*/
 .loginBar {
   background-color: black;
   height: 50px;
-/*  border-radius: 40px;*/
 }
 
 .login {
   float: right;
-
-
-/*  margin-top: -242px;*/
 }
 
 .logtwo {
@@ -23,7 +20,6 @@ body{
 
 .liButton {
   display: inline;
-
   margin-right: 30px;
   color: #BC6028;
   font-family: 'Merriweather Sans', sans-serif;
@@ -36,12 +32,52 @@ body{
   color: #BC6028;
   font-family: 'Merriweather Sans', sans-serif;
 }
+/*second bar and styles*/
+.secondBar {
+  height: 110px;
+  background-color: #1E0A0C;
+  text-align: right;
+}
 
+.twoliButton {
+  float: none;
+  display: inline;
+  margin-left: 110px;
+  margin-right: 30px;
+  color: #fffdd0;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+}
+
+.twologin {
+  float: right;
+  margin-right: 190px;
+  margin-top: 40px;
+}
+/*third bar and styles*/
+.thirdBar {
+  height: 80px;
+  background-color: #fffdd0;
+}
+
+.threeliButton {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 140px;
+  color: #9B3206;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.threelogin {
+  float: right;
+  margin-right: 120px;
+  margin-top: 30px;
+}
 
 a {
   text-decoration: none;
 }
-
+/*logobox logo and img and styles*/
 .logo {
   height: 230px;
   width: 200px;
@@ -65,56 +101,12 @@ a {
   margin-left: 3px;
 }
 
-.secondBar {
-  height: 110px;
-  background-color: #1E0A0C;
-  text-align: right;
-}
-
-.twoliButton {
-  float: none;
-  display: inline;
-  margin-left: 110px;
-  margin-right: 30px;
-  color: #fffdd0;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 20px;
-
-}
-
-.twologin {
-  float: right;
-  margin-right: 190px;
-  margin-top: 40px;
-}
-
-
-.thirdBar {
-  height: 80px;
-  background-color: #fffdd0;
-}
-
-.threeliButton {
-  display: inline;
-  margin-right: 10px;
-  margin-left: 140px;
-  color: #9B3206;
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
-.threelogin {
-  float: right;
-  margin-right: 120px;
-  margin-top: 30px;
-
-}
-
 img {
   width: 100%;
-
 }
+/*mainbox bgimg and styles*/
 .main {
-  height: 574px;
+  height: 594px;
   width: 100%;
   background-image: url(http://www.yopk.gr/wp-content/uploads/2016/05/Latte-Art-Coffee01.jpg);
   background-repeat: no-repeat;
@@ -122,14 +114,14 @@ img {
   background-position: 0% 100%;
   background-size: 100% 100%;
 }
-
+/*ad menuebox and styles*/
 .admenue {
   border: 1px solid black;
   height: 390px;
   width: 360px;
   float: right;
   margin-right: 12%;
-  margin-top: 8px;
+  margin-top: -12px;
   border-radius: 0px 0px 30px 30px;
   background-color: #3f2a14;
   filter: opacity(50%);
@@ -149,8 +141,4 @@ img {
   margin-top: -20px;
   font-size: 25px;
   filter: invert(80%);
-}
-
-a {
-  color: inherit;
 }
