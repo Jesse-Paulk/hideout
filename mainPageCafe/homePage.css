@@ -94,7 +94,7 @@ a {
   width: 250px;
   margin-left: 7%;
   background-size: contain;
-  background-image: url(http://www.robertsasaki.com/images/Logo_500.png);
+  background-image: url("images/Logo_500.png");
   margin-top: -920px;
 
 }
