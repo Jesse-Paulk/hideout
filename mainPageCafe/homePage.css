@@ -1,4 +1,5 @@
 body{
+  background-color: #1E0A0C;
   margin: 0 auto;
   width: 100%;
 }
@@ -6,7 +7,7 @@ body{
 /*top login bar and styles*/
 .loginBar {
   background-color: black;
-  height: 50px;
+  height: 40px;
 }
 
 .login {
@@ -15,130 +16,164 @@ body{
 
 .logtwo {
   float: right;
-  margin-right: 80px;
+  margin-right: 0px;
+
 }
 
 .liButton {
   display: inline;
-  margin-right: 30px;
+  margin-right: 85px;
   color: #BC6028;
   font-family: 'Merriweather Sans', sans-serif;
+  font-size: 12px;
 }
 
 .liButtonT {
   display: inline;
-  margin-left: 25px;
-  margin-right: 5px;
+  margin-left: 20px;
+  margin-right: 15px;
   color: #BC6028;
   font-family: 'Merriweather Sans', sans-serif;
+  font-size: 12px;
+
 }
 /*second bar and styles*/
 .secondBar {
-  height: 110px;
+  height: 60px;
   background-color: #1E0A0C;
-  text-align: right;
 }
 
 .twoliButton {
   float: none;
   display: inline;
-  margin-left: 110px;
-  margin-right: 30px;
+  margin-left: 85px;
+  margin-right: 85px;
   color: #fffdd0;
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .twologin {
   float: right;
-  margin-right: 190px;
-  margin-top: 40px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 /*third bar and styles*/
 .thirdBar {
-  height: 80px;
+  height: 40px;
   background-color: #fffdd0;
 }
 
 .threeliButton {
   display: inline;
-  margin-right: 10px;
-  margin-left: 140px;
+  margin-right: 40px;
+  margin-left: 80px;
   color: #9B3206;
   font-family: 'Merriweather Sans', sans-serif;
+  font-size: 14px;
 }
 
 .threelogin {
   float: right;
-  margin-right: 120px;
-  margin-top: 30px;
+  margin-right: 40px;
+  padding-left: 0px;
+  margin-top: 1px;
 }
 
 a {
   text-decoration: none;
 }
+
+
 /*logobox logo and img and styles*/
 .logo {
-  height: 230px;
-  width: 200px;
-
+  position:absolute;
+  clear: left;
+  height: 250px;
+  width: 250px;
   margin-left: 7%;
-  background-color: black;
-  border-radius: 0px 0px 30px 0px;
-  margin-top: -832px;
-  /*filter: opacity(40%);*/
-}
-
-.logoCircle {
-  border: 1px solid black;
-  border-radius: 100%;
-  height: 190px;
-  width: 190px;
-  margin-top: 10%;
   background-size: contain;
-  background-image: url(https://static1.squarespace.com/static/54cdc221e4b06bf8f30d9c1c/t/57d090dd44024361a7e82413/1473286366778/13346191_1118126678250717_631264290170108344_o.jpg?format=2500w);
-  filter: opacity(99%);
-  margin-left: 3px;
+  background-image: url("images/Logo_500.png");
+  margin-top: -920px;
+
 }
 
-img {
-  width: 100%;
+
+.slideshow {
+float:none;
+position:relative;
+margin-top: -1%;
+
 }
+
 /*mainbox bgimg and styles*/
 .main {
-  height: 594px;
+  float:center;
+  height: 800px;
   width: 100%;
-  background-image: url(http://www.yopk.gr/wp-content/uploads/2016/05/Latte-Art-Coffee01.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 0% 100%;
-  background-size: 100% 100%;
+  border-bottom: 2px solid white;
+
+
+
 }
 /*ad menuebox and styles*/
+
+.bodycontentright {
+float: right;
+width: 800px;
+margin-right: 5%;
+margin-top: -50%;
+}
+
 .admenue {
+  position: relative;
   border: 1px solid black;
-  height: 390px;
-  width: 360px;
-  float: right;
-  margin-right: 12%;
-  margin-top: -12px;
-  border-radius: 0px 0px 30px 30px;
-  background-color: #3f2a14;
-  filter: opacity(50%);
-  padding: 40px;
-  text-align: center;
-  font-family: 'Ranga', cursive;
-
+  height: 300px;
+  margin-top: 10%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgba(63,42,20,0.5);
 }
 
-.adtext {
-  margin-top: 20px;
-  font-size: 60px;
-  filter: invert(80%);
-}
 
 .adtext2 {
-  margin-top: -20px;
-  font-size: 25px;
-  filter: invert(80%);
+position: relative;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+color: white;
+text-shadow: 2px 2px 8px #000000;
+line-height: 190%;
+text-align: left;
+padding: 20px;
+letter-spacing: 1px;
+
+}
+
+
+.leftcontent {
+float: left;
+position: relative;
+width: 400;
+margin-left: 8%;
+margin-top: -40%
+
+}
+
+.contact {
+position: relative;
+font-family: 'Merriweather Sans', bold;
+color: #fffdd0;
+font-size: 12px;
+letter-spacing: 3px;
+line-height: 200%;
+text-shadow: 2px 2px 6px #000000;
+
+}
+
+.calendar {
+  float: right;
+  position: relative;
+  bottom: 25%;
+  left:6%;
+
 }
